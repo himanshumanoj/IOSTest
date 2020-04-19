@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78FB8079244CF1AF00A44143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB8078244CF1AF00A44143 /* AppDelegate.swift */; };
+		78FB807B244CF1AF00A44143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB807A244CF1AF00A44143 /* ViewController.swift */; };
+		78FB807E244CF1AF00A44143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FB807C244CF1AF00A44143 /* Main.storyboard */; };
+		78FB8080244CF1B100A44143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB807F244CF1B100A44143 /* Assets.xcassets */; };
+		78FB8083244CF1B100A44143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FB8081244CF1B100A44143 /* LaunchScreen.storyboard */; };
+		78FB808E244CF1B100A44143 /* Telstra_IOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB808D244CF1B100A44143 /* Telstra_IOS_TestTests.swift */; };
+		78FB8099244CF1B100A44143 /* Telstra_IOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB8098244CF1B100A44143 /* Telstra_IOS_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78FB808A244CF1B100A44143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FB806D244CF1AF00A44143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FB8074244CF1AF00A44143;
+			remoteInfo = "Telstra IOS Test";
+		};
+		78FB8095244CF1B100A44143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FB806D244CF1AF00A44143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FB8074244CF1AF00A44143;
+			remoteInfo = "Telstra IOS Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78FB8075244CF1AF00A44143 /* Telstra IOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telstra IOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB8078244CF1AF00A44143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78FB807A244CF1AF00A44143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78FB807D244CF1AF00A44143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78FB807F244CF1B100A44143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78FB8082244CF1B100A44143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78FB8084244CF1B100A44143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FB8089244CF1B100A44143 /* Telstra IOS TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telstra IOS TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB808D244CF1B100A44143 /* Telstra_IOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telstra_IOS_TestTests.swift; sourceTree = "<group>"; };
+		78FB808F244CF1B100A44143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FB8094244CF1B100A44143 /* Telstra IOS TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telstra IOS TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB8098244CF1B100A44143 /* Telstra_IOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telstra_IOS_TestUITests.swift; sourceTree = "<group>"; };
+		78FB809A244CF1B100A44143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FB8072244CF1AF00A44143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8086244CF1B100A44143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8091244CF1B100A44143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78FB806C244CF1AF00A44143 = {
+			isa = PBXGroup;
+			children = (
+				78FB8077244CF1AF00A44143 /* Telstra IOS Test */,
+				78FB808C244CF1B100A44143 /* Telstra IOS TestTests */,
+				78FB8097244CF1B100A44143 /* Telstra IOS TestUITests */,
+				78FB8076244CF1AF00A44143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78FB8076244CF1AF00A44143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FB8075244CF1AF00A44143 /* Telstra IOS Test.app */,
+				78FB8089244CF1B100A44143 /* Telstra IOS TestTests.xctest */,
+				78FB8094244CF1B100A44143 /* Telstra IOS TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FB8077244CF1AF00A44143 /* Telstra IOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				78FB8078244CF1AF00A44143 /* AppDelegate.swift */,
+				78FB807A244CF1AF00A44143 /* ViewController.swift */,
+				78FB807C244CF1AF00A44143 /* Main.storyboard */,
+				78FB807F244CF1B100A44143 /* Assets.xcassets */,
+				78FB8081244CF1B100A44143 /* LaunchScreen.storyboard */,
+				78FB8084244CF1B100A44143 /* Info.plist */,
+			);
+			path = "Telstra IOS Test";
+			sourceTree = "<group>";
+		};
+		78FB808C244CF1B100A44143 /* Telstra IOS TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				78FB808D244CF1B100A44143 /* Telstra_IOS_TestTests.swift */,
+				78FB808F244CF1B100A44143 /* Info.plist */,
+			);
+			path = "Telstra IOS TestTests";
+			sourceTree = "<group>";
+		};
+		78FB8097244CF1B100A44143 /* Telstra IOS TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78FB8098244CF1B100A44143 /* Telstra_IOS_TestUITests.swift */,
+				78FB809A244CF1B100A44143 /* Info.plist */,
+			);
+			path = "Telstra IOS TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FB8074244CF1AF00A44143 /* Telstra IOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FB809D244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS Test" */;
+			buildPhases = (
+				78FB8071244CF1AF00A44143 /* Sources */,
+				78FB8072244CF1AF00A44143 /* Frameworks */,
+				78FB8073244CF1AF00A44143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telstra IOS Test";
+			productName = "Telstra IOS Test";
+			productReference = 78FB8075244CF1AF00A44143 /* Telstra IOS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78FB8088244CF1B100A44143 /* Telstra IOS TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FB80A0244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS TestTests" */;
+			buildPhases = (
+				78FB8085244CF1B100A44143 /* Sources */,
+				78FB8086244CF1B100A44143 /* Frameworks */,
+				78FB8087244CF1B100A44143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FB808B244CF1B100A44143 /* PBXTargetDependency */,
+			);
+			name = "Telstra IOS TestTests";
+			productName = "Telstra IOS TestTests";
+			productReference = 78FB8089244CF1B100A44143 /* Telstra IOS TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78FB8093244CF1B100A44143 /* Telstra IOS TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FB80A3244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS TestUITests" */;
+			buildPhases = (
+				78FB8090244CF1B100A44143 /* Sources */,
+				78FB8091244CF1B100A44143 /* Frameworks */,
+				78FB8092244CF1B100A44143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FB8096244CF1B100A44143 /* PBXTargetDependency */,
+			);
+			name = "Telstra IOS TestUITests";
+			productName = "Telstra IOS TestUITests";
+			productReference = 78FB8094244CF1B100A44143 /* Telstra IOS TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FB806D244CF1AF00A44143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.himanshu;
+				TargetAttributes = {
+					78FB8074244CF1AF00A44143 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					78FB8088244CF1B100A44143 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 78FB8074244CF1AF00A44143;
+					};
+					78FB8093244CF1B100A44143 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 78FB8074244CF1AF00A44143;
+					};
+				};
+			};
+			buildConfigurationList = 78FB8070244CF1AF00A44143 /* Build configuration list for PBXProject "Telstra IOS Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78FB806C244CF1AF00A44143;
+			productRefGroup = 78FB8076244CF1AF00A44143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FB8074244CF1AF00A44143 /* Telstra IOS Test */,
+				78FB8088244CF1B100A44143 /* Telstra IOS TestTests */,
+				78FB8093244CF1B100A44143 /* Telstra IOS TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FB8073244CF1AF00A44143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB8083244CF1B100A44143 /* LaunchScreen.storyboard in Resources */,
+				78FB8080244CF1B100A44143 /* Assets.xcassets in Resources */,
+				78FB807E244CF1AF00A44143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8087244CF1B100A44143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8092244CF1B100A44143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FB8071244CF1AF00A44143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB807B244CF1AF00A44143 /* ViewController.swift in Sources */,
+				78FB8079244CF1AF00A44143 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8085244CF1B100A44143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB808E244CF1B100A44143 /* Telstra_IOS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FB8090244CF1B100A44143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FB8099244CF1B100A44143 /* Telstra_IOS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78FB808B244CF1B100A44143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FB8074244CF1AF00A44143 /* Telstra IOS Test */;
+			targetProxy = 78FB808A244CF1B100A44143 /* PBXContainerItemProxy */;
+		};
+		78FB8096244CF1B100A44143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FB8074244CF1AF00A44143 /* Telstra IOS Test */;
+			targetProxy = 78FB8095244CF1B100A44143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78FB807C244CF1AF00A44143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FB807D244CF1AF00A44143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78FB8081244CF1B100A44143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FB8082244CF1B100A44143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FB809B244CF1B100A44143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78FB809C244CF1B100A44143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78FB809E244CF1B100A44143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78FB809F244CF1B100A44143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78FB80A1244CF1B100A44143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telstra IOS Test.app/Telstra IOS Test";
+			};
+			name = Debug;
+		};
+		78FB80A2244CF1B100A44143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telstra IOS Test.app/Telstra IOS Test";
+			};
+			name = Release;
+		};
+		78FB80A4244CF1B100A44143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Telstra IOS Test";
+			};
+			name = Debug;
+		};
+		78FB80A5244CF1B100A44143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Telstra IOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.Telstra-IOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Telstra IOS Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FB8070244CF1AF00A44143 /* Build configuration list for PBXProject "Telstra IOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB809B244CF1B100A44143 /* Debug */,
+				78FB809C244CF1B100A44143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FB809D244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB809E244CF1B100A44143 /* Debug */,
+				78FB809F244CF1B100A44143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FB80A0244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB80A1244CF1B100A44143 /* Debug */,
+				78FB80A2244CF1B100A44143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FB80A3244CF1B100A44143 /* Build configuration list for PBXNativeTarget "Telstra IOS TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FB80A4244CF1B100A44143 /* Debug */,
+				78FB80A5244CF1B100A44143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FB806D244CF1AF00A44143 /* Project object */;
+}
