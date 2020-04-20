@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		78FB8079244CF1AF00A44143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB8078244CF1AF00A44143 /* AppDelegate.swift */; };
-		78FB807B244CF1AF00A44143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB807A244CF1AF00A44143 /* ViewController.swift */; };
 		78FB807E244CF1AF00A44143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FB807C244CF1AF00A44143 /* Main.storyboard */; };
 		78FB8080244CF1B100A44143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FB807F244CF1B100A44143 /* Assets.xcassets */; };
 		78FB8083244CF1B100A44143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FB8081244CF1B100A44143 /* LaunchScreen.storyboard */; };
 		78FB808E244CF1B100A44143 /* Telstra_IOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB808D244CF1B100A44143 /* Telstra_IOS_TestTests.swift */; };
 		78FB8099244CF1B100A44143 /* Telstra_IOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB8098244CF1B100A44143 /* Telstra_IOS_TestUITests.swift */; };
+		78FB80AD244CF46600A44143 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80AC244CF46600A44143 /* Constants.swift */; };
+		78FB80AF244D899F00A44143 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80AE244D899F00A44143 /* DataManager.swift */; };
+		78FB80B3244D8C8400A44143 /* TelstraModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80B2244D8C8400A44143 /* TelstraModelData.swift */; };
+		78FB80B5244D8D3000A44143 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80B4244D8D3000A44143 /* TableViewCell.swift */; };
+		78FB80B7244D8D7400A44143 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80B6244D8D7400A44143 /* TableViewModel.swift */; };
+		78FB80BB244D91B400A44143 /* ImgDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80BA244D91B400A44143 /* ImgDownloader.swift */; };
+		78FB80BD244D9CA500A44143 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 78FB80BC244D9CA500A44143 /* data.json */; };
+		78FB80C2244DA8F700A44143 /* TelstraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB80C1244DA8F700A44143 /* TelstraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		78FB8075244CF1AF00A44143 /* Telstra IOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telstra IOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB8078244CF1AF00A44143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78FB807A244CF1AF00A44143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78FB807D244CF1AF00A44143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78FB807F244CF1B100A44143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FB8082244CF1B100A44143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		78FB8094244CF1B100A44143 /* Telstra IOS TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telstra IOS TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FB8098244CF1B100A44143 /* Telstra_IOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telstra_IOS_TestUITests.swift; sourceTree = "<group>"; };
 		78FB809A244CF1B100A44143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FB80AC244CF46600A44143 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78FB80AE244D899F00A44143 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		78FB80B2244D8C8400A44143 /* TelstraModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelstraModelData.swift; sourceTree = "<group>"; };
+		78FB80B4244D8D3000A44143 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		78FB80B6244D8D7400A44143 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		78FB80BA244D91B400A44143 /* ImgDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgDownloader.swift; sourceTree = "<group>"; };
+		78FB80BC244D9CA500A44143 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "Telstra IOS Test/data.json"; sourceTree = SOURCE_ROOT; };
+		78FB80C1244DA8F700A44143 /* TelstraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelstraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,14 @@
 		78FB8077244CF1AF00A44143 /* Telstra IOS Test */ = {
 			isa = PBXGroup;
 			children = (
+				78FB80BE244DA17C00A44143 /* Extension */,
+				78FB80AB244CF3BB00A44143 /* Cell */,
+				78FB80AA244CF39A00A44143 /* Manager */,
+				78FB80A9244CF37C00A44143 /* Model */,
+				78FB80A8244CF35C00A44143 /* View model */,
+				78FB80A7244CF33D00A44143 /* View controller */,
 				78FB8078244CF1AF00A44143 /* AppDelegate.swift */,
-				78FB807A244CF1AF00A44143 /* ViewController.swift */,
+				78FB80AC244CF46600A44143 /* Constants.swift */,
 				78FB807C244CF1AF00A44143 /* Main.storyboard */,
 				78FB807F244CF1B100A44143 /* Assets.xcassets */,
 				78FB8081244CF1B100A44143 /* LaunchScreen.storyboard */,
@@ -123,6 +143,55 @@
 				78FB809A244CF1B100A44143 /* Info.plist */,
 			);
 			path = "Telstra IOS TestUITests";
+			sourceTree = "<group>";
+		};
+		78FB80A7244CF33D00A44143 /* View controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FB80C1244DA8F700A44143 /* TelstraViewController.swift */,
+			);
+			path = "View controller";
+			sourceTree = "<group>";
+		};
+		78FB80A8244CF35C00A44143 /* View model */ = {
+			isa = PBXGroup;
+			children = (
+				78FB80B6244D8D7400A44143 /* TableViewModel.swift */,
+			);
+			path = "View model";
+			sourceTree = "<group>";
+		};
+		78FB80A9244CF37C00A44143 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78FB80BC244D9CA500A44143 /* data.json */,
+				78FB80B2244D8C8400A44143 /* TelstraModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FB80AA244CF39A00A44143 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				78FB80AE244D899F00A44143 /* DataManager.swift */,
+				78FB80BA244D91B400A44143 /* ImgDownloader.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		78FB80AB244CF3BB00A44143 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				78FB80B4244D8D3000A44143 /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		78FB80BE244DA17C00A44143 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +301,7 @@
 				78FB8083244CF1B100A44143 /* LaunchScreen.storyboard in Resources */,
 				78FB8080244CF1B100A44143 /* Assets.xcassets in Resources */,
 				78FB807E244CF1AF00A44143 /* Main.storyboard in Resources */,
+				78FB80BD244D9CA500A44143 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FB807B244CF1AF00A44143 /* ViewController.swift in Sources */,
+				78FB80B3244D8C8400A44143 /* TelstraModelData.swift in Sources */,
 				78FB8079244CF1AF00A44143 /* AppDelegate.swift in Sources */,
+				78FB80B7244D8D7400A44143 /* TableViewModel.swift in Sources */,
+				78FB80AD244CF46600A44143 /* Constants.swift in Sources */,
+				78FB80B5244D8D3000A44143 /* TableViewCell.swift in Sources */,
+				78FB80BB244D91B400A44143 /* ImgDownloader.swift in Sources */,
+				78FB80C2244DA8F700A44143 /* TelstraViewController.swift in Sources */,
+				78FB80AF244D899F00A44143 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVDR6ND7SH;
 				INFOPLIST_FILE = "Telstra IOS Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVDR6ND7SH;
 				INFOPLIST_FILE = "Telstra IOS Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
